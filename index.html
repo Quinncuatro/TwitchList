@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Twitch List</title>
+    
+    <link rel='stylesheet' href='css/bootstrap/bootstrap.min.css'>
+    <link rel='stylesheet' href='css/font-awesome-4.5.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+
+  <body>
+  <div class="container-fluid">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+      <div class="row text-center header">
+        <span class="twitchHeader"><i class="fa fa-twitch"></i> Stream List</span>
+      </div>
+      <div class="row text-center mainContent">
+      </div>
+    </div>
+    <div class="col-md-3"></div>
+  </div>
+
+  <script id="userInfo" type="text/x-handlebars-template">
+    <a href="{{{url}}}" target="_blank">
+      <div class="row wellStreamer {{{status}}}">
+        <div class="col-xs-2 col-sm-1" id="icon">
+          <img class="logo" src="{{{logo}}}">
+        </div>
+        <div class="col-xs-10 col-sm-4 text-center" id="name">
+          {{{name}}}
+        </div>
+        <div class="col-xs-10 col-sm-7 text-center" id="game">
+          {{{game}}}
+        </div>
+      </div>
+    </a>
+  </script>
+
+</body>
+
+    <script src='js/jquery/jquery-2.2.2.min.js'></script>
+    <script src='js/bootstrap/bootstrap.min.js'></script>
+    <script src='js/handlebars/handlebars-v4.0.5.js'></script>
+    <script src="js/index.js"></script>
+
+</html>

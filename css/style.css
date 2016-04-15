@@ -1,0 +1,65 @@
+body {
+  background-color: #2A2A2A;
+  color: #2A2A2A;
+}
+
+.header {
+  margin-top: 10px;
+}
+
+.twitchHeader {
+  font-size: 300%;
+  color: #F1F1F1;
+}
+
+.mainContent {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.row {
+  line-height: 25px;
+}
+
+.wellStreamer {
+  border-top: 1px solid #2A2A2A;
+  border-bottom: 1px solid #2A2A2A;
+  word-wrap: break-word;
+}
+
+.wellStreamer:hover {
+  cursor: pointer;
+  background-color: #6441A5;
+  color: #2A2A2A;
+}
+
+a {
+  color: #000;
+}
+
+.offline {
+  background-color: #F2DCDB;
+}
+
+.online {
+  background-color: #EBF1DE;
+}
+
+.logo {
+  max-height: 50px;
+  max-width: 50px;
+  margin: 2px 2px 2px 2px;
+  border-radius: 50%;
+  border: 1px solid #6441A5;
+}
+
+@media (min-width: 768px) {
+  .container-fluid {
+    margin: 10px auto;
+  }
+
+  #name, #game {
+    line-height: 50px;
+    height: 50px;
+  }
+}
